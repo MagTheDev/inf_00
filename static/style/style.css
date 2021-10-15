@@ -34,7 +34,7 @@ html {
 }
 
 .title {
-    font-size: 10rem;
+    font-size: clamp(5px, 15vw, 10rem);
     font-weight: bold;
     color: #C5C8C6;
 
@@ -54,7 +54,7 @@ html {
 }
 
 .sub-title {
-    font-size: 2em;
+    font-size: clamp(20px, 3vw, 15rem);
     font-weight: bold;
     color: #C5C8C6;
 
@@ -85,7 +85,7 @@ html {
 
     margin-left: 50px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    
 }
 
 .text {
@@ -95,7 +95,7 @@ html {
 }
 
 .enlarged {
-    font-size: 60px;
+    font-size: clamp(10px, 4vw, 15rem);
     background: linear-gradient(45deg, #f3ec78, #af4261);
     background-clip: text;
     -webkit-background-clip: text;
@@ -132,41 +132,12 @@ html {
     color: #81A2BE;
 }
 
-.image {
-    width: auto;
-    height: auto;
-
-    max-width: 1000px;
-    max-height: 1000px;
-
-    border-radius: 25px;
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    margin-top: 25px;
-}
-
-
-.image-right {
-    float: right;
-    margin-right: 25px;
-}
-
-.image-left {
-    float: left;
-}
-
-.image-large {
-    display: none;
-}
 
 /* Cursor */
 
 .blinking-cursor {
     font-weight: 100;
-    font-size: 10rem;
+    font-size: clamp(10px, 15vw, 10rem);
     color: #8C9440;
     
     animation: 1s blink step-end infinite;
