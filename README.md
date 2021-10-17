@@ -1,4 +1,3 @@
-# inf_00
 
 # WARNING!
 ## This website is designed to be hosted on a webserver, just opening the files in browser messes with the styling.
