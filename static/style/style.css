@@ -132,6 +132,15 @@ html {
     color: #81A2BE;
 }
 
+.link-white {
+    color: #C5C8C6;
+    text-decoration: none;
+}
+
+.link-white:hover {
+    color: aliceblue;
+}
+
 
 /* Cursor */
 
